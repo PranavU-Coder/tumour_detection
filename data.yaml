@@ -1,0 +1,14 @@
+path: /home/pranav/Projects/tumour_detection/Brain-tumor-2
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['eye', 'glioma', 'meningioma', 'pituitary']
+
+roboflow:
+  workspace: project-oftnd
+  project: brain-tumor-of8ow
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-oftnd/brain-tumor-of8ow/dataset/2
